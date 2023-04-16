@@ -1,0 +1,20 @@
+if ((hora==h13_c1) && (minuto==m13_c1) && (segundo==s13_c1)) {
+    if (h13_c1_largo==true) { activar_timbre(timbre_largo); }
+    else{ activar_timbre(timbre_corto); }
+   }
+   if ((hora==h14_c1) && (minuto==m14_c1) && (segundo==s14_c1)) {
+    if (h14_c1_largo==true) { activar_timbre(timbre_largo); }
+    else{ activar_timbre(timbre_corto); }
+   }
+   if ((hora==h15_c1) && (minuto==m15_c1) && (segundo==s15_c1)) {
+    if (h15_c1_largo==true) { activar_timbre(timbre_largo); }
+    else{ activar_timbre(timbre_corto); }
+   }
+   if ((hora==h16_c1) && (minuto==m16_c1) && (segundo==s16_c1)) {
+    if (h16_c1_largo==true) { activar_timbre(timbre_largo); }
+    else{ activar_timbre(timbre_corto); }
+   }
+int h13_c1=99; int m13_c1=0;  int s13_c1=0;   int h13_c1_largo=true;
+int h14_c1=99; int m14_c1=0;  int s14_c1=0;   int h14_c1_largo=true;
+int h15_c1=99; int m15_c1=0;  int s15_c1=0;   int h15_c1_largo=true;
+int h16_c1=99; int m16_c1=0;  int s16_c1=0;   int h16_c1_largo=true;
